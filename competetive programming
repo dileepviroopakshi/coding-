@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	
+	int wd;
+   float ib,ab;
+	
+	scanf("%d",&wd);
+	scanf("%f",&ib);
+	
+	 if(wd>0&&wd<=2000){
+	     if(ib>0&&ib<=2000){
+	         if(ib>=wd){
+	             if(wd%5==0){
+	                 
+	                 ab =ib -wd -0.50 ;
+	                    printf("%f",ab);
+	             }
+	         }
+	     }
+	     
+	     
+	     
+	 }else{
+	     printf("%f",ib);
+	 }
+	return 0;
+}
+
